@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ter Loo – Activiteiten</title>
+  <meta name="theme-color" content="#2f6b4f">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <button class="brand" id="homeBtn" aria-label="Naar het begin">
+      <span class="brand-mark" aria-hidden="true">🌳</span>
+      <span>Ter Loo<small>Vrije tijd</small></span>
+    </button>
+    <div class="topbar-right">
+      <span id="clock" class="clock" aria-live="off"></span>
+      <button class="ghost" id="staffBtn">Begeleiding</button>
+    </div>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <dialog id="dialog"></dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>
